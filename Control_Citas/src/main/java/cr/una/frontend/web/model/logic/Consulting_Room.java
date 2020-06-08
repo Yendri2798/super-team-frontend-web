@@ -1,5 +1,9 @@
 package cr.una.frontend.web.model.logic;
 
+/**
+ * @author Yendri
+ */
+
 public class Consulting_Room {
     private String name;
     private String phone;

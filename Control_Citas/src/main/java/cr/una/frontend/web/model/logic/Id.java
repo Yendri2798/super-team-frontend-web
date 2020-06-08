@@ -2,6 +2,10 @@ package cr.una.frontend.web.model.logic;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * @author Yendri
+ */
+
 public class Id {
     @JsonProperty("$oid")
     private String $oid;

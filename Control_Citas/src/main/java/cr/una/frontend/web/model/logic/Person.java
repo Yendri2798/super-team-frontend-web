@@ -1,5 +1,9 @@
 package cr.una.frontend.web.model.logic;
 
+/**
+ * @author Yendri
+ */
+
 public class Person {
     Id id;
     private String firstName;

@@ -4,6 +4,9 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+/**
+ * @author Yendri
+ */
 
 public class Patient extends Person {
     Id id;

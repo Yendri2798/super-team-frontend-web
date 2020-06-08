@@ -3,6 +3,10 @@ package cr.una.frontend.web.model.logic;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+/**
+ * @author Yendri
+ */
+
 
 public class Appointment {
     private String date;
