@@ -2,9 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Appoinment List</title>
 </head>
 <body>
+<div align="center">
+<h1>Appointment List</h1>
+<br/><br/>
+<form action="#" th:action="@{/appointments}" method="post">
+    <label>Numero de cita: </label>
+    <input type="text" name="filterTxt" number="filterTxt" placeholder="">
 
+    <label>Numero de cedula: </label>
+    <input type="text" name="filterTxt2" id="filterTxt2" placeholder="">
+
+    <label>Nombre: </label>
+    <input type="text" name="filterTxt2" name="filterTxt3" placeholder="">
+    <button type="submit">Filtrar</button>
+    <button type="submit">Confirmar cita</button>
+</form>
+<br/>
+<table border="1" cellpadding="10">
+    <thead>
+    <tr>
+        <th>Numero cita</th>
+        <th>Cédula</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Servicio</th>
+        <th>Hora</th>
+        <th>Fecha</th>
+        <th>Motivo</th>
+        <th>Estado atención</th>
+        <th>Confirmar</th>
+        <th>Lugar atención</th>
+        <th>Doctor</th>
+        <th>Costo final</th>
+
+    </tr>
+    </thead>
+</table>
+</div>
 </body>
 </html>
